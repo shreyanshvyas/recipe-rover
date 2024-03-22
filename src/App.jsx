@@ -3,6 +3,8 @@ import LocomotiveScroll from 'locomotive-scroll'
 import Navbar from './components/Navbar'
 import LandingPage from './components/LandingPage'
 import Marquee from './components/Marquee'
+import Login from './components/Login'
+import Signup from './components/Signup'
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
