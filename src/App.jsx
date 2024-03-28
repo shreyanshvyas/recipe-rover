@@ -16,10 +16,10 @@ function App() {
   return (
     <>
     <div className='w-full min-h-screen text-white bg-zinc-900'>
-    {/* <Navbar/>
+    <Navbar/>
     <LandingPage/>
-    <Marquee/> */}
-    <Search/>
+    <Marquee/>
+    {/* <Search/> */}
     </div>
   
   {/* for cards */}
