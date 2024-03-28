@@ -1,4 +1,3 @@
-
  export function Products(props) {
      return(
          <div className='productList align-items-center object-center flex mt-5'>
@@ -8,11 +7,8 @@
                      <h2 className='productName font-bold text-center text-2xl '>{props.name}</h2>
                      <div className='discription mt-6'>{props.discription}
                       </div>
-                      <button class="bg-green-500  mt-8 ml-8 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-  See Recipe
-</button>
-                 </div>
-                 
+                      <button class="bg-green-500  mt-8 ml-8 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">See Recipe</button>
+                 </div>   
              </div> 
          </div>
      )

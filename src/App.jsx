@@ -5,6 +5,7 @@ import LandingPage from './components/LandingPage'
 import Marquee from './components/Marquee'
 import Login from './components/Login'
 import Signup from './components/Signup'
+import Search from './components/Search'
 
 //for cards 
 // import { Products } from './components/products';
@@ -15,9 +16,10 @@ function App() {
   return (
     <>
     <div className='w-full min-h-screen text-white bg-zinc-900'>
-    <Navbar/>
+    {/* <Navbar/>
     <LandingPage/>
-    <Marquee/>
+    <Marquee/> */}
+    <Search/>
     </div>
   
   {/* for cards */}
